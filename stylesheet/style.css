@@ -1,0 +1,436 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family:'gotham regular';
+}
+.box{
+
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    left: 95%;
+  
+   
+}  
+.rec-1{
+    width: 30px;
+    margin-top: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.rec-2{
+    width: 24px;
+    margin-top: 4px;
+    border: 2px solid white;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+.rec-3{
+    width: 17px;
+    margin-top: 4px;
+    border: 2px solid white;
+    margin-left: 13px;
+    border-radius: 5px;
+}
+#hero-section{
+    background-image: url(../assets/img/banner.png);
+    min-height: 120vh;
+    width: 100%;
+    float: left;
+      z-index: 0;
+       background-position: center;
+    background-size: cover;
+    position: relative;
+  
+}
+.header{
+    display: flex;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+     gap: 50px;
+     border-bottom: 2px solid rgb(255, 255, 255);
+     width: 97%;
+     height: 45px;
+     margin-top: 10px;
+  
+}
+.nyamutusi{
+    color: red;
+    z-index: 1;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.head{
+    color: white;
+    font-weight: lighter;
+}
+
+.cen{
+    color: white;
+    display: flex;
+    justify-content: center;
+   margin-top: 280px;
+   font-size:100px;
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 1300px;
+  
+}
+#our-story{
+    width: 100%;
+    min-height: 140vh;
+    background-color: white;
+    float: left;
+}
+.story{
+    margin-top: 100px;
+    font-weight: lighter;
+}
+.para-1{
+    margin-top: 75px;
+}
+.button-1{
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-top: 15px;
+}
+.picc{
+    display: flex;
+    flex-direction: row;
+}
+.cheli{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+.elephant{
+    background-image: url(../assets/img/middle.png);
+    background-position: center;
+    background-size: cover;
+    width: 330px;
+    height: 350px;
+    margin-top: 210px;
+}
+.lion{
+    background-image: url(../assets/img/lion.png);
+    background-position: center;
+    background-size: cover;
+    width: 210px;
+    height: 240px;
+    margin-top: 100px;
+}
+.chair{
+    background-image: url(../assets/img/last.png);
+    background-position: center;
+    background-size: cover;
+    width: 210px;
+    height: 390px;
+  
+}
+#activities{
+    min-height: 85vh;
+    width: 100%;
+    background-color: white;
+    float: left;
+
+}
+.act{
+    font-weight: lighter;
+}
+
+.px{
+    gap: 2px;
+    
+}
+
+.pix{
+    background-image: url(../assets/img/middle.png);
+    width: 215px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+.games{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+.game{
+    color: white;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.game-1{
+    color: white;
+    margin-top: 25px;
+}
+#wildlife{
+    width: 100%;
+    min-height: 110vh;
+    float: left;
+    background-color: white;
+}
+
+.gir{
+    width: 175px;
+    height: 225px;
+    margin-left:15px;
+    margin-top: 50px;
+}
+.bok{
+  height: 225px;
+  width:210px ; 
+  margin-left: 120px;
+  margin-top: 80px;
+ 
+}
+.zebra{
+    height: 225px;
+    width:210px ; 
+    margin-left: 260px; 
+    margin-top: 10px;
+}
+.ele{
+    height: 305px;
+    width:210px ;
+    margin-left: 100px;  
+   
+}
+.hyena{
+    height: 200px;
+    width:210px ; 
+    margin-left: 100px; 
+    
+}
+.lio{
+    width: 210px;
+    height: 380px;
+    margin-left: 235px;
+    margin-top: 190px;
+}
+.pi{
+    gap: 15px;
+     display: flex;
+    flex-direction: column;
+   margin-bottom: 200px;
+}
+.sight{
+    margin-top: 35px;
+}
+.one{
+    display: flex;
+}
+.two{
+    display: flex;
+justify-content: flex-start;
+  
+}
+#sug{
+    background-color: white;
+    min-height: 90vh;
+    width: 100%;
+    float: left;
+}
+.riv{
+    background-image: url(../assets/img/Rectangle\ 36.png);
+    width: 250px;
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+.orange{
+    background-color: orangered;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 420px;
+
+}
+.pool{
+    background-image: url(../assets/img/Rectangle\ 38.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 420px;
+}
+#testimonial{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    float: left;
+
+}
+.stone{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 420px;
+    background-image: url(../assets/img/Rectangle\ 46.png); 
+}
+.fam{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 420px;
+    background-image: url(../assets/img/Rectangle\ 45.png)
+}
+.bod{
+    border:2px solid red;
+    width: 520px;
+    height: 420px; 
+}
+.mon{
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.lad{
+ width: 170px;
+ height: 170px; 
+ margin-top: 20px;    
+}
+.lady{
+   
+    text-align: center;
+
+
+}
+#gallery{
+    width: 100%;
+    min-height: 120vh;
+    float: left;
+    background-color: white;
+}
+.car{
+    width: 555px;
+    height: 250px;
+}
+.flo{
+width: 275px;
+height: 250px;
+margin-left: 5px;
+}
+.dle{
+    width: 275px;
+    height: 250px;
+   
+}
+.room{
+    width: 563px;
+    height: 250px;
+}
+.pic-1{
+    width: 175px;
+    height: 250px;
+   
+    }
+.pic-2{
+      width: 175px;
+      height: 250px;
+       
+ }
+.pic-3{
+  width: 175px;
+   height: 250px;
+           
+ }
+ .sea{
+    margin-top: 15px;
+ }
+ #footer{
+    background-color: orangered;
+    float: left;
+    width: 100%;
+    
+  
+ }
+ .btn{
+    background-color: black;
+    margin-right: 25px;
+ }
+ .copy{
+    margin-left: 400px;
+    color: white;
+ }
+ ul{
+    li{
+        color: white;
+    }
+ }
+ h5{
+    color: white;
+ }
+ .win{
+    margin-top: 75px;
+ }
+ .river-1{
+    color: white;
+    margin-top: 325px;
+ }
+ .river-2{
+    color: white;
+ }
+ .pri{
+    
+ }
+ hr{
+    color: white;
+ }
+ .zim{
+    color: white;
+ }
+ .foward{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+ }
+ .jon{
+    color: red;
+    width: 100px;
+    margin-top: 45px;
+    margin-left: 200px;
+    
+ }
+ .ss{
+    margin-top: 50px;
+ }
+ .son{
+    color: black;
+    margin-top: 10px;
+ }
+.lux{
+    margin-top: 15px;
+}
+.ries{
+    margin-top: 35px;
+}
